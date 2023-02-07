@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
 </head>
+
 <body>
     <header>
         <nav>
@@ -25,10 +27,44 @@
             <h1>Seja bem-vindo!</h1>
             <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
         </section>
+
+        <section id="sobre">
+            <h2> Sobre o HTML5 semântico</h2>
+            <p>O HTML5 semântico é uma evolução da linguagem HTML que permite 
+            aos desenvolvedores criar estruturas mais significativas e ricas 
+            em conteúdo para seus sites e aplicativos.</p>
+        </section>
+
+        <section id="linguagens">
+            <h2>Outras linguagens associadas</h2>
+            <ul>
+                <li>Hipertext Markup Language - HTML</li>
+                <li>Cascading Style Sheet - CSS</li>
+                <li>JavaScript - JS</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Fale conosco</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="Nome" id="nome">
+                <label for="mail">E-mail:</label>
+                <input type="text" name="E-mail" id="mail">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </form>
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Desejo receber informações por sobre HTML5 pelo e-mail</label>
+                </div>
+                <input id="button" type="submit" value="Enviar">
+        </section>
     </main>
 
     <footer>
-        <p>Todos os direitos reservados - Site HTML5 </p>
-    </footer>   
+        <p>Copyright &copy; 2023</p>
+    </footer>
 </body>
+
 </html>

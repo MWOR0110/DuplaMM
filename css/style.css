@@ -1,37 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    color: white;
+
+body {
+    color: #FFFFFF;
+    background-image:url("../image/background6.webp");
 }
 
-header{
-    background-color: rgb(60, 190, 180);
+header {
+    box-shadow: 0px 2px 15px rgb(48, 81, 232);
+    background-color: rgb(33, 37, 41);
     padding: 10px;
     align-items: center;
 }
 
-header ul{
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+    font-size:large;
+}
+
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-
-    
 }
 
-footer{
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0,32,67,0.4), rgba(0, 64, 134,0.4),rgba(0,64,67,0.4));
+}
+
+#inicio {
+
+}
+
+#sobre {}
+
+#linguagens {}
+
+#contato {
+
+}
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(60, 190, 180);
+    background-color: rgb(33, 37, 41);
     padding: 10px;
 }
 
-
-a{
+a {
     text-decoration: none;
     color: white;
 }
