@@ -36,6 +36,9 @@ header li{
 header li:hover{
     font-size:  25px;;
 }
+header a{
+    
+}
 
 
 
@@ -170,7 +173,10 @@ main {
 }
 
 #button:hover{
-    font-size: medium;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgb(13, 116, 42);
 }
 .button{
     display: flex;
